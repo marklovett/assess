@@ -1,0 +1,97 @@
+/*Assessment*/
+
+
+.assessment h1.page-title, .results h1.page-title {
+  margin: 4em 0 3em 0;
+  text-align: center;
+  font-family: OpenSansSemiBold;
+}
+
+.assessment li, .results li {
+  margin-top: 2em;
+  padding-bottom: 2px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.assessment h3, .results h3 {
+  font-weight: 600;
+  margin-top: 3em;
+  color: #1C75BC;
+  font-size: 15px;
+  font-family: OpenSansSemiBold;
+}
+
+.scale li {
+  margin: 0;
+  list-style: none;
+}
+
+.container.assessment p , .container.results p {
+  font-size: 1.25em;
+}
+
+.container.results ul p {
+  font-size: 16px;
+}
+
+.container.assessment input[type="submit"] {
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.container.assessment .submit {
+  margin-top: 4em;
+}
+
+.container.assessment li:nth-child(even) {
+  padding: 0px;
+  margin: 0;
+}
+
+
+body {
+  background: #fff !important;
+  }
+
+.container.assessment button[type="submit"] {
+  font-size: 1.2rem;
+  margin-top: 0;
+  background: #54cdcd;
+  color: #fefefe;
+  padding: 10px !important;
+  margin: 0 0 2em;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 120px;
+  max-width: 200px;
+  border: 0;
+}
+
+#indResults p:last-child, #proResults p:last-child {
+  margin-bottom: 10em;
+}
+
+#indResults p, #proResults p {
+  padding-bottom: 7px;
+}
+
+#indResults .results-header p, #proResults .results-header p {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+
+#indResults h1 , #proResults h1{
+  margin: 2em 0;
+  text-align: center;
+  font-family: OpenSansSemiBold;
+}
+
+.submit p {
+  padding-bottom: 0;
+}
+
+
+
+
